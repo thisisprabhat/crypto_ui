@@ -1,9 +1,9 @@
-import 'package:crypto_app/screens/homescreen/home_screen_provider.dart';
-import 'package:crypto_app/utils/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'screens/homescreen/home_screen.dart';
+import '../screens/homescreen/home_screen_provider.dart';
+import '../../screens/onboarding/onboarding_screen.dart';
+import '../utils/theme.dart';
 
 void main() {
   runApp(const CryptoApp());
@@ -24,7 +24,7 @@ class CryptoApp extends StatelessWidget {
         return MaterialApp(
           theme: AppTheme.lightTheme,
           debugShowCheckedModeBanner: false,
-          home: const HomePage(),
+          home: const OnboardingScreen(),
         );
       },
     );
