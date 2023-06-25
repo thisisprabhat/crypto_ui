@@ -1,0 +1,77 @@
+name: crypto_app
+description: A cryptoCurrency hobby project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  http: ^1.0.0
+  google_fonts: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Priego
+      fonts:
+        - asset: assets/fonts/Fontspring-DEMO-priego-regular.otf
+          weight: 400
+        - asset: assets/fonts/Fontspring-DEMO-priego-black.otf
+          weight: 900
+        - asset: assets/fonts/Fontspring-DEMO-priego-blackitalic.otf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Fontspring-DEMO-priego-bolditalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Fontspring-DEMO-priego-extrabold.otf
+          weight: 800
+        - asset: assets/fonts/Fontspring-DEMO-priego-extrabolditalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Fontspring-DEMO-priego-extralight.otf
+          weight: 200
+        - asset: assets/fonts/Fontspring-DEMO-priego-extralightitalic.otf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Fontspring-DEMO-priego-light.otf
+          weight: 300
+        - asset: assets/fonts/Fontspring-DEMO-priego-lightitalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Fontspring-DEMO-priego-medium.otf
+          weight: 500
+        - asset: assets/fonts/Fontspring-DEMO-priego-mediumitalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Fontspring-DEMO-priego-regularitalic.otf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Fontspring-DEMO-priego-semibold.otf
+          weight: 600
+        - asset: assets/fonts/Fontspring-DEMO-priego-semibolditalic.otf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Fontspring-DEMO-priego-thin.otf
+          weight: 100
+        - asset: assets/fonts/Fontspring-DEMO-priego-thinitalic.otf
+          weight: 100
+          style: italic
+        
